@@ -7,4 +7,5 @@ public class Multiplication {
         String name = sc.next();
         System.out.println("The name is " + name);
         }
+
 }

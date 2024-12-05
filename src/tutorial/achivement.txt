@@ -1,0 +1,30 @@
+-- to do
+java coding interview questions top 10
+concepts of streams, multi-threading
+
+
+
+
+
+--completed
+
+arrays
+arrayList
+difference b/n arrayList & List
+conversion from arrays to List & vicerversa using fruits.toArray()
+common crude operations in list or array list
+iterations, enhanced iterations, streams based iterations using method references (in copy)
+Collection.sort(numbers);
+
+
+-- revised
+
+string reverse
+string buffer , get more in detail
+array to list , list to stream -- understand well
+int[] numbers = {1,2,3,4,5};
+        List<Integer> x = IntStream.of(numbers).boxed().collect(Collectors.toList());
+        for(int i =numbers.length-1; i>=0; i--){
+            System.out.println(numbers[i]);
+        }
+
